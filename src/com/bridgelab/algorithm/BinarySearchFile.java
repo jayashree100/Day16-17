@@ -24,10 +24,9 @@ public class BinarySearchFile {
 	}
 
 	public static void main(String[] args) throws IOException {
-		// TODO Auto-generated method stub
 		Scanner sc = new Scanner(System.in);
 		List<String> l = new ArrayList<String>();
-		File file = new File("D:Binary_search.txt");
+		File file = new File("D:Binary_Search.txt");
 		BufferedReader br = new BufferedReader(new FileReader(file));
 
 		String st;
